@@ -1,9 +1,14 @@
 {
 	"name": "java-snippet",
 	"description": "Provide Java development 35000+ code snippets and detailed interface reminders, which greatly improves your development efficiency.",
-	"displayName": "Java Snippet",
+	"displayName": "Java Snippets",
 	"version": "0.0.2",
-	"publisher": "wscats",
+	"publisher": "Wscats",
+	"author": {
+		"name": "Eno Yao",
+		"email": "kalone.cool@gmail.com",
+		"url": "https://github.com/Wscats"
+	},
 	"engines": {
 		"HBuilderX": "^2.7.0",
 		"vscode": "^0.10.6"
@@ -14,6 +19,13 @@
 		"java",
 		"snippets"
 	],
+	"galleryBanner": {
+		"color": "#58bc58",
+		"theme": "dark"
+	},
+	"bugs": {
+		"url": "https://github.com/Wscats/java-snippets/issues/new"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/wscats/java-snippets"
@@ -28,6 +40,9 @@
 				"path": "./snippets/java.json"
 			}
 		]
+	},
+	"scripts": {
+		"build": "vsce package"
 	},
 	"extensionDependencies": [
 		"plugin-manager"
