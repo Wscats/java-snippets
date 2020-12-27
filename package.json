@@ -2,7 +2,7 @@
 	"name": "java-snippet",
 	"description": "Provide Java development 35000+ code snippets and detailed interface reminders, which greatly improves your development efficiency.",
 	"displayName": "Java Snippets",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"publisher": "Wscats",
 	"author": {
 		"name": "Eno Yao",
@@ -17,7 +17,9 @@
 	"homepage": "https://github.com/wscats/java-snippets",
 	"keywords": [
 		"java",
-		"snippets"
+		"snippets",
+		"maven",
+		"spring"
 	],
 	"galleryBanner": {
 		"color": "#58bc58",
