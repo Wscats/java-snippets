@@ -2,7 +2,7 @@
 	"name": "java-snippet",
 	"description": "Provide Java development 35000+ code snippets and detailed interface reminders, which greatly improves your development efficiency.",
 	"displayName": "Java Snippets",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"publisher": "Wscats",
 	"author": {
 		"name": "Eno Yao",
@@ -45,8 +45,5 @@
 	},
 	"scripts": {
 		"build": "vsce package"
-	},
-	"extensionDependencies": [
-		"plugin-manager"
-	]
+	}
 }
