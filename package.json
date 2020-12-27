@@ -1,0 +1,36 @@
+{
+	"name": "java-snippet",
+	"description": "Provide Java development 35000+ code snippets and detailed interface reminders, which greatly improves your development efficiency.",
+	"displayName": "Java Snippet",
+	"version": "0.0.2",
+	"publisher": "wscats",
+	"engines": {
+		"HBuilderX": "^2.7.0",
+		"vscode": "^0.10.6"
+	},
+	"icon": "icon.png",
+	"homepage": "https://github.com/wscats/java-snippets",
+	"keywords": [
+		"java",
+		"snippets"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wscats/java-snippets"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "java",
+				"path": "./snippets/java.json"
+			}
+		]
+	},
+	"extensionDependencies": [
+		"plugin-manager"
+	],
+	"dependencies": {}
+}
